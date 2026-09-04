@@ -1,0 +1,28 @@
+{
+  "name": "crypto_bot_alert",
+  "version": "2.0.0",
+  "description": "Discord Bot for Real-Time Crypto Momentum Alerts & Market Intelligence with Multi-Exchange Affiliate & VIP Subscription Monetization",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node tests/rsiDirection.test.js && node tests/rsiAndVolumeBugs.test.js"
+  },
+  "keywords": [
+    "crypto",
+    "discord-bot",
+    "binance",
+    "bybit",
+    "trading-alerts",
+    "momentum-sniper"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  }
+}
